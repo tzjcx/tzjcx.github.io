@@ -9,10 +9,60 @@ html {
     font-size: 10px;
     font-family:'Times New Roman', Times, serif;
 }
+div#navfirst{
+    height: 48px;
+    /* width: 800px; */
+    margin: 0 0 0 0;
+    background: rgb(129, 185, 238);
+    align-self: center;
+}
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+div#navfirst ul#menu {
+    height: 48px;
+    width: 1210px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+div#navfirst ul#menu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+ul#menu li, ul#menu a {
+    display: block;
+    height: 48px;
+    border-bottom: 0;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+ul#menu a:checked{color:rgb(129, 185, 238);}
+#h{width: 144px;left: 200px;}
+#v{width: 144px;left: 600px;}
+#p{width: 144px;left: 400px;}
+#a{width: 144px;left: 800px;}
+
 h1 {
     font-size: 60px;
     text-align: center;
 }
+
 p, li {
     font-size: 16px;
     line-height: 2;
@@ -24,11 +74,11 @@ a :hover {
 html {
     background-color: rgb(129, 185, 238);
 }
-body {
+div#mainfo {
     width: 1000px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
-    padding: 0 20px 20px 20px;
+    padding: 0 0 0 0;
     border: 5px solid black;
 }
 h1 {
@@ -40,4 +90,10 @@ h1 {
 img{
     display: block;
     margin: auto;
+}
+#box {
+    width: 500px;
+    height: 200px;
+    border: 2px solid #8888ff;
+    padding: 4px 6px;
 }
